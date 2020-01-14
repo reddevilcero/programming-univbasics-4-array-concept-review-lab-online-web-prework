@@ -29,4 +29,4 @@ def find_min_value(array)
 
 end
 
-find_min_value
+find_min_value([1,2,3,4,5])
