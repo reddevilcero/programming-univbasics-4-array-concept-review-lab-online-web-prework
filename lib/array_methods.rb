@@ -15,7 +15,7 @@ def find_min_value(array)
   #array.min()
   max = nil
   array.each { |element|
-     max = element if element < max
+     max = element if element > max
     }
     max
 end
