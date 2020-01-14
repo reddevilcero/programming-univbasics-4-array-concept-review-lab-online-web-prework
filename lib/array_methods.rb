@@ -20,13 +20,10 @@ def find_min_value(array)
   #array.min()
 
   min = array[0]
-  puts min
 
   array.each { |element|
 
       min = element if element < min
     }
- puts min
-end
 
-find_min_value([10,6,1,2,3,4,5])
+end
