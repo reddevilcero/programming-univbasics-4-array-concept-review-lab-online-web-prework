@@ -26,7 +26,7 @@ def find_min_value(array)
 
       min = element if element < min
     }
-
+ puts min
 end
 
 find_min_value([10,,1,2,3,4,5])
