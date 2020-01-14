@@ -7,7 +7,7 @@ end
 def find_max_value(array)
   # Add your solution here
   #array.max()
-  max = nil
+  max = array[0]
   array.each { |element|
      max = element if element > max
     }
