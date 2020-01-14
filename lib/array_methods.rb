@@ -20,6 +20,7 @@ def find_min_value(array)
   #array.min()
 
   min = array[0]
+  puts min
 
   array.each { |element|
 
@@ -27,3 +28,5 @@ def find_min_value(array)
     }
 
 end
+
+find_min_value
