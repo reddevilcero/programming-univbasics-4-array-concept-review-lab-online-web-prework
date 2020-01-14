@@ -7,7 +7,7 @@ end
 def find_max_value(array)
   # Add your solution here
 
-end 
+end
 
 def find_min_value(array)
   # Add your solution here
