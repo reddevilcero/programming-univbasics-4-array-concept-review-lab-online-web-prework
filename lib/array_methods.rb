@@ -19,4 +19,11 @@ def find_min_value(array)
   # Add your solution here
   #array.min()
 
+  min = array[0]
+
+  array.each { |element|
+
+      min = element if element < min
+    }
+
 end
