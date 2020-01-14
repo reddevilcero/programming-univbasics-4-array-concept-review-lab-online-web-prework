@@ -17,5 +17,5 @@ def find_min_value(array)
   array.each { |element|
      max = element if element < max
     }
-
+    max
 end
